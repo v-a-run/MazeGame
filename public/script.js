@@ -192,7 +192,7 @@ const ballRadius = Math.min(unitLengthX,unitLengthY) / 4;
 const ball = Bodies.circle(
     unitLengthX/2,           //- x-value of centre
     unitLengthY/2,           //# y-value of centre
-    ballRadius,           //- radius of circle
+    ballRadius,              //- radius of circle
     {
         label: 'ball',
         render : {
