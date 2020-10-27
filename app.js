@@ -8,6 +8,6 @@ app.get("/", (req, res) => {
     res.render("index.html");
 });
 
-app.listen(3000 || process.env.PORT, process.env.IP, () => {
+app.listen(process.env.PORT || 3000, process.env.IP, () => {
     console.log("Game about to start..");
 })
